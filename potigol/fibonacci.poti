@@ -1,0 +1,14 @@
+imprima "Number of terms: "
+n = leia_inteiro
+
+var a = 1
+var b = 0
+
+escreva b
+escreva a
+
+para i de 1 até n faça
+	a := a + b
+	b := a - b
+	escreva a
+fim

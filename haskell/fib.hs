@@ -1,4 +1,5 @@
--- |
+-- | Simple fibonacci implementation.
+-- | Command-line interface: fib n , where n is an non-negative integer
 
 module Main where
 
@@ -10,4 +11,4 @@ fib = 0 : 1 : zipWith (+) fib (tail fib)
 main :: IO ()
 main = do
   n <- head <$> getArgs
-  print $ take (read n) $ fib
+  print $ fib !! (read n)

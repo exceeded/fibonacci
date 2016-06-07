@@ -1,3 +1,5 @@
+# http://potigol.github.io/
+
 imprima "Number of terms: "
 n = leia_inteiro
 

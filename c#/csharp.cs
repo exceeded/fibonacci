@@ -1,6 +1,6 @@
 using System;
 
-public class csharp {
+public class fibonacci {
 	public static void Main (string[] args) {
 		Console.Write("N: ");
 		int n = int.Parse(Console.ReadLine());
